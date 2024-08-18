@@ -1,13 +1,127 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Test css</title>
-</head>
-<body>
-    <header></header>
-    <main></main>
-    <footer></footer>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Native HTML Components</title>
+    <link rel="stylesheet" href="./db.css" />
+  </head>
+  <body>
+    <h1>Native HTML Components</h1>
+    <hr>
+
+    <!-- Links -->
+    <h2>Links</h2>
+    <a href="#">Example Link</a>
+
+    <!-- Buttons -->
+    <h2>Buttons</h2>
+    <button>Button</button>
+    <input type="button" value="Input Button" />
+
+    <!-- Images -->
+    <h2>Images</h2>
+    <img src="https://via.placeholder.com/150" alt="Example Image" />
+
+    <!-- Form -->
+    <h2>Form</h2>
+    <form>
+      <!-- Text fields -->
+      <label for="text">Text field:</label>
+      <input type="text" id="text" name="text" /><br /><br />
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" /><br /><br />
+
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" /><br /><br />
+
+      <!-- Checkboxes -->
+      <label><input type="checkbox" name="option1" value="1" /> Option 1</label
+      ><br />
+      <label><input type="checkbox" name="option2" value="2" /> Option 2</label
+      ><br /><br />
+
+      <!-- Radio buttons -->
+      <label><input type="radio" name="radio" value="option1" /> Option 1</label
+      ><br />
+      <label><input type="radio" name="radio" value="option2" /> Option 2</label
+      ><br /><br />
+
+      <!-- Dropdown (select) -->
+      <label for="select">Select an option:</label>
+      <select id="select" name="select">
+        <option value="1">Option 1</option>
+        <option value="2">Option 2</option>
+        <option value="3">Option 3</option></select
+      ><br /><br />
+
+      <!-- Textarea -->
+      <label for="textarea">Text area:</label>
+      <textarea id="textarea" name="textarea"></textarea><br /><br />
+
+      <input type="submit" value="Submit" />
+    </form>
+
+    <!-- Tables -->
+    <h2>Tables</h2>
+    <table border="1">
+      <thead>
+        <tr>
+          <th>Column 1</th>
+          <th>Column 2</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Data 1</td>
+          <td>Data 2</td>
+        </tr>
+        <tr>
+          <td>Data 3</td>
+          <td>Data 4</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <!-- Lists -->
+    <h2>Lists</h2>
+    <h3>Ordered List</h3>
+    <ol>
+      <li>Item 1</li>
+      <li>Item 2</li>
+      <li>Item 3</li>
+    </ol>
+
+    <h3>Unordered List</h3>
+    <ul>
+      <li>Item A</li>
+      <li>Item B</li>
+      <li>Item C</li>
+    </ul>
+
+    <!-- Multimedia -->
+    <h2>Multimedia</h2>
+    <h3>Video</h3>
+    <video width="320" height="240" controls>
+      <source src="movie.mp4" type="video/mp4" />
+      Your browser does not support the video tag.
+    </video>
+
+    <h3>Audio</h3>
+    <audio controls>
+      <source src="audio.mp3" type="audio/mpeg" />
+      Your browser does not support the audio element.
+    </audio>
+
+    <!-- Other components -->
+    <h2>Other Components</h2>
+    <progress value="50" max="100"></progress><br />
+    <meter min="0" max="100" value="75">75%</meter><br /><br />
+
+    <details>
+      <summary>Details</summary>
+      This is hidden content that is revealed when clicked.
+    </details>
+  </body>
 </html>
