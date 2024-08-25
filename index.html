@@ -2,13 +2,13 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0" /> -->
     <title>Native HTML Components</title>
     <link rel="stylesheet" href="./db.css" />
   </head>
   <body>
     <h1>Native HTML Components</h1>
-    <hr>
+    <hr />
 
     <!-- Links -->
     <h2>Links</h2>
@@ -27,26 +27,25 @@
     <h2>Form</h2>
     <form>
       <!-- Text fields -->
-      <label for="text">Text field:</label>
+      <label for="text">Text field:</label><br>
       <input type="text" id="text" name="text" /><br /><br />
+      <input type="text" disabled /><br /><br />
+      <input type="text" readonly /><br /><br />
+      <input type="color" value="#1c76c5" /><br /><br />
+      <input type="file" /><br /><br />
+      <input type="password" /><br /><br />
+      <input type="date" /><br /><br />
+      <input type="month" /><br /><br />
+      <input type="week" /><br /><br />
+      <input type="time" /><br /><br />
+      <input type="range" /><br /><br />
 
-      <label for="email">Email:</label>
-      <input type="email" id="email" name="email" /><br /><br />
+      <input type="checkbox" name="option1" value="1" />
+      <br />
 
-      <label for="password">Password:</label>
-      <input type="password" id="password" name="password" /><br /><br />
+      <input type="radio" name="radio" value="option1" />
 
-      <!-- Checkboxes -->
-      <label><input type="checkbox" name="option1" value="1" /> Option 1</label
-      ><br />
-      <label><input type="checkbox" name="option2" value="2" /> Option 2</label
-      ><br /><br />
-
-      <!-- Radio buttons -->
-      <label><input type="radio" name="radio" value="option1" /> Option 1</label
-      ><br />
-      <label><input type="radio" name="radio" value="option2" /> Option 2</label
-      ><br /><br />
+      <br />
 
       <!-- Dropdown (select) -->
       <label for="select">Select an option:</label>
@@ -59,8 +58,6 @@
       <!-- Textarea -->
       <label for="textarea">Text area:</label>
       <textarea id="textarea" name="textarea"></textarea><br /><br />
-
-      <input type="submit" value="Submit" />
     </form>
 
     <!-- Tables -->
@@ -108,16 +105,9 @@
       Your browser does not support the video tag.
     </video>
 
-    <h3>Audio</h3>
-    <audio controls>
-      <source src="audio.mp3" type="audio/mpeg" />
-      Your browser does not support the audio element.
-    </audio>
-
     <!-- Other components -->
     <h2>Other Components</h2>
     <progress value="50" max="100"></progress><br />
-    <meter min="0" max="100" value="75">75%</meter><br /><br />
 
     <details>
       <summary>Details</summary>
