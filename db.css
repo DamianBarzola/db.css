@@ -6,6 +6,7 @@
   --scrollbar-1: #040a0f;
   --scrollbar-2: #202b38;
   --background-1: #0c0c0c;
+  --background-2: #161616;
   --input-background-1: #121212;
   --input-background-2: #272727;
   --input-background-3: #191919;
@@ -61,17 +62,32 @@ section {
   margin: 2rem 0;
 }
 article {
-  padding: 0.5rem;
+  padding: 0.7rem 0.5rem;
   border: 1px solid var(--border);
   margin: 1rem 0;
   border-radius: var(--border-radius);
+}
+header {
+  padding: 2rem 1rem 1rem 1rem;
+  background-color: var(--background-2);
+  margin: 2rem 0;
+  border-bottom: 1px solid var(--border);
+}
+footer {
+  padding: 1rem 1rem 2rem 1rem;
+  border-top: 1px solid var(--border);
+  margin: 2rem 0;
+}
+aside {
+  padding: 0.7rem 0.5rem;
+  margin: 1rem 0;
 }
 
 /* Separators */
 
 hr {
   margin: 0.2rem;
-  border-color: var(--text-1);
+  border-color: var(--border);
 }
 
 /* Titles */
@@ -82,7 +98,7 @@ h4,
 h5,
 h6 {
   font-weight: bolder;
-  margin-bottom: 0.5rem;
+  margin-bottom: 1rem;
   margin-top: 0.5rem;
 }
 
@@ -90,19 +106,50 @@ h1 {
   font-size: 2.4rem;
 }
 h2 {
-  font-size: 1.7rem;
+  font-size: 1.8rem;
 }
 h3 {
-  font-size: 1.3rem;
+  font-size: 1.4rem;
 }
 h4 {
-  font-size: 1.1rem;
+  font-size: 1.2rem;
 }
 h5 {
   font-size: 1rem;
 }
 h6 {
   font-size: 0.9rem;
+}
+/* Texts */
+p,
+span,
+li {
+  margin: 1rem 0;
+}
+
+::selection,
+mark {
+  background-color: var(--primary-hover);
+  color: white;
+}
+blockquote {
+  background-color: var(--input-background-2);
+  padding: 0.8rem;
+  border-radius: var(--border-radius);
+  border-left: 4px solid var(--primary);
+  margin: 1rem 0;
+  font-style: italic;
+}
+cite {
+  color: var(--text-2);
+  font-style: normal;
+}
+
+code {
+  background-color: var(--input-background-2);
+  padding: 0.25rem;
+  border-radius: var(--border-radius);
+  color: var(--text-1);
 }
 
 /* Anchor */

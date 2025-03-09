@@ -1,0 +1,131 @@
+    -Estructura y contenedores
+html ✅
+body ✅
+div ✅
+
+section ✅ 
+article ✅ 
+aside ✅ 
+header ✅ 
+footer ✅ 
+nav 
+main 
+
+    -Separador 
+hr ✅ 
+
+    -Texto y contenido
+h1 ✅ 
+h2 ✅ 
+h3 ✅ 
+h4 ✅ 
+h5 ✅ 
+h6 ✅ 
+
+p 
+span 
+pre 
+
+blockquote ✅ 
+cite ✅ 
+
+strong -
+em -
+b -
+i -
+small -
+mark ✅ 
+
+code ✅ 
+kbd 
+samp 
+var 
+dfn 
+
+sup -
+sub -
+
+del -
+ins -
+
+abbr -
+time -
+
+    -Enlaces y navegación
+a ✅ 
+
+    -Listas
+ol 
+ul 
+li 
+
+dl 
+dt 
+dd 
+
+    -Tablas
+table 
+th 
+td 
+tr 
+
+caption 
+colgroup 
+col 
+
+    -Formularios e inputs
+form 
+
+fieldset 
+legend 
+
+label 
+textarea 
+
+select 
+option 
+
+input (todos los tipos: text, password, email, color, file, range, checkbox, radio, submit, reset, button)
+input
+    disabled
+    readonly
+
+    color
+    file
+    range
+    checkbox
+    radio
+    range
+
+    submit
+    reset
+    button
+
+button 
+
+progress 
+meter 
+
+output 
+
+
+    -Multimedia e imágenes
+img 
+
+video 
+audio 
+source 
+
+canvas 
+svg 
+object 
+embed 
+
+    -Detalles y contenido adicional
+details 
+summary 
+
+figure 
+figcaption 
+
+template 
