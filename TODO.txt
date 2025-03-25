@@ -11,7 +11,7 @@ footer ✅
 nav 
 main 
 
-    -Separador 
+    -Separador ✅ 
 hr ✅ 
 
     -Texto y contenido
@@ -48,30 +48,28 @@ sub -
 del -
 ins -
 
-abbr -
+abbr ✅ 
 time -
 
-    -Enlaces y navegación
+    -Enlaces y navegación✅ 
 a ✅ 
 
-    -Listas
-ol 
-ul 
-li 
+    -Listas✅ 
+ol ✅ 
+ul ✅ 
+li ✅ 
 
-dl 
-dt 
-dd 
+dl ✅ 
+dt ✅ 
+dd ✅ 
 
     -Tablas
-table 
-th 
-td 
-tr 
+table ✅
+th ✅
+td ✅
+tr ✅
 
-caption 
-colgroup 
-col 
+caption ✅
 
     -Formularios e inputs
 form 
