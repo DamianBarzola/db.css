@@ -106,22 +106,20 @@ output -
 
 
     -Multimedia e imágenes
-img 
+img ✅
 
-video 
-audio 
-source 
+video ✅
+audio -
 
-canvas 
-svg 
-object 
-embed 
+canvas -
+svg -
+object -
+embed -
 
     -Detalles y contenido adicional
-details 
-summary 
+details ✅
+summary ✅
 
-figure 
-figcaption 
+figure -
+figcaption -
 
-template 
