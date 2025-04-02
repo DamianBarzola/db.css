@@ -8,8 +8,8 @@ article ✅
 aside ✅ 
 header ✅ 
 footer ✅ 
-nav 
-main 
+nav ?
+main -
 
     -Separador ✅ 
 hr ✅ 
@@ -22,9 +22,9 @@ h4 ✅
 h5 ✅ 
 h6 ✅ 
 
-p 
-span 
-pre 
+p -
+span -
+pre ✅ 
 
 blockquote ✅ 
 cite ✅ 
@@ -37,10 +37,10 @@ small -
 mark ✅ 
 
 code ✅ 
-kbd 
-samp 
-var 
-dfn 
+kbd ✅
+samp ✅
+var ✅
+dfn -
 
 sup -
 sub -

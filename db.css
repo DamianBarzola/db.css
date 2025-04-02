@@ -145,13 +145,23 @@ cite {
   font-style: normal;
 }
 
-code {
+kbd,
+code,
+pre,
+samp {
   background-color: var(--input-background-2);
   padding: 0.25rem;
   border-radius: var(--border-radius);
   color: var(--text-1);
 }
-
+kbd {
+  font-size: 0.9rem;
+  font-weight: bold;
+  border-bottom: 2px solid var(--primary);
+}
+var {
+  font-family: monospace;
+}
 abbr {
   cursor: help;
 }
