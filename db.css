@@ -167,6 +167,7 @@ a:hover {
 }
 
 /* Inputs */
+
 textarea,
 select,
 input {
@@ -177,10 +178,12 @@ input {
 input,
 select,
 textarea {
+  display: block;
   color: var(--text-1);
   background-color: var(--input-background-1);
   border-radius: var(--border-radius);
   padding: 0.5rem;
+  margin: 0.5rem 0;
   font-size: 1rem;
   border: 1px solid var(--border);
   transition: 0.2s ease-in-out all;
@@ -221,6 +224,8 @@ input[type="file"] {
 }
 input[type="checkbox"],
 input[type="radio"] {
+  display: initial;
+
   position: relative;
   vertical-align: middle;
   width: 1.2rem;
@@ -269,8 +274,23 @@ select {
     no-repeat;
   padding-right: 35px;
 }
+/*Form*/
+form {
+  margin-bottom: 1rem;
+}
+fieldset {
+  margin: 1rem 0;
+  border: 1px solid var(--border);
+  border-radius: var(--border-radius);
+  padding: 1.5rem;
+}
+legend {
+  font-weight: 600;
+  font-size: 1rem;
+}
 
 /* Buttons */
+
 button,
 input[type="submit"],
 input[type="reset"],

@@ -72,39 +72,37 @@ tr ✅
 caption ✅
 
     -Formularios e inputs
-form 
+form -
 
-fieldset 
-legend 
+fieldset ✅
+legend ✅
 
-label 
-textarea 
+label -
+textarea ✅
 
-select 
-option 
+select ✅
+option ✅
 
-input (todos los tipos: text, password, email, color, file, range, checkbox, radio, submit, reset, button)
 input
-    disabled
-    readonly
+    disabled✅
+    readonly✅
 
-    color
-    file
-    range
-    checkbox
-    radio
-    range
+    color ✅
+    file✅
+    range✅
+    checkbox✅
+    radio✅
 
-    submit
-    reset
-    button
+    submit✅
+    reset✅
+    button✅
 
-button 
+button ✅
 
-progress 
-meter 
+progress ✅
+meter -
 
-output 
+output -
 
 
     -Multimedia e imágenes
