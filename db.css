@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap");
 
 :root {
   --text-1: #dadada;
@@ -18,35 +18,16 @@
 
   --border-radius: 4px;
 }
-
-/* @media (prefers-color-scheme: light) {
-  :root {
-    --text-1: #0f0f0f;
-    --text-2: #4b4b4b;
-    --scrollbar-1: rgb(170, 170, 170);
-    --scrollbar-2: #fff;
-    --background-1: #eaeaea;
-    --input-background-1: #dbdbdb;
-    --input-background-2: #888888;
-    --input-background-3: #afafaf;
-    --border: #353535;
-    --select-arrow: url("");
-  }
-} */
 * {
   margin: 0;
   padding: 0;
 }
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap");
-
 html {
-  font-family: "Poppins", "Roboto", "Open Sans", "Helvetica Neue", sans-serif;
+  font-family: Poppins, "Open Sans", "Helvetica Neue", sans-serif;
   scrollbar-color: var(--scrollbar-1) var(--scrollbar-2);
   scrollbar-width: 4px;
 }
-
 body {
-  /* color-scheme: dark; */
   max-width: 750px;
   background: var(--background-1);
   color: var(--text-1);
@@ -55,7 +36,6 @@ body {
   padding: 1rem;
   margin: 0 auto;
 }
-/* Containers */
 section {
   padding: 2rem 0;
   border-top: 1px solid var(--border);
@@ -83,15 +63,10 @@ aside {
   padding: 0.7rem 0.5rem;
   margin: 1rem 0;
 }
-
-/* Separators */
-
 hr {
   margin: 0.2rem;
   border-color: var(--border);
 }
-
-/* Titles */
 h1,
 h2,
 h3,
@@ -102,7 +77,6 @@ h6 {
   margin-bottom: 1rem;
   margin-top: 0.5rem;
 }
-
 h1 {
   font-size: 2.4rem;
 }
@@ -121,12 +95,10 @@ h5 {
 h6 {
   font-size: 0.9rem;
 }
-/* Texts */
 p,
 span {
   margin: 1rem 0;
 }
-
 ::selection,
 mark {
   background-color: var(--primary-hover);
@@ -144,7 +116,6 @@ cite {
   color: var(--text-2);
   font-style: normal;
 }
-
 kbd,
 code,
 pre,
@@ -165,8 +136,6 @@ var {
 abbr {
   cursor: help;
 }
-
-/* Anchor */
 a {
   color: var(--primary);
   text-decoration: none;
@@ -175,9 +144,6 @@ a:hover {
   color: var(--primary-hover);
   text-decoration: underline;
 }
-
-/* Inputs */
-
 textarea,
 select,
 input {
@@ -204,7 +170,6 @@ textarea:focus {
   border: 1px solid var(--primary);
   outline: none;
 }
-
 input[type="color"] {
   padding: 0;
   height: 2.3rem;
@@ -212,7 +177,6 @@ input[type="color"] {
   width: 2.3rem;
   cursor: pointer;
 }
-
 input[type="color"]::-webkit-color-swatch-wrapper {
   padding: 0;
 }
@@ -227,7 +191,6 @@ input[type="file"] {
   background: none;
   border: none;
 }
-
 input[type="range"],
 input[type="file"] {
   background-color: none;
@@ -235,7 +198,6 @@ input[type="file"] {
 input[type="checkbox"],
 input[type="radio"] {
   display: initial;
-
   position: relative;
   vertical-align: middle;
   width: 1.2rem;
@@ -248,7 +210,6 @@ input[type="checkbox"]:checked,
 input[type="radio"]:checked {
   background-color: var(--primary);
 }
-
 input[type="checkbox"]:checked::after {
   content: "✔";
   color: var(--input-background-1);
@@ -268,23 +229,18 @@ input[type="radio"]:checked::after {
   left: 54%;
   transform: translate(-50%, -50%);
 }
-
 input[type="range"] {
   appearance: auto;
   accent-color: var(--primary);
 }
-
 progress {
   accent-color: var(--primary);
 }
-
-/* Select */
 select {
   background: var(--input-background-1) var(--select-arrow) calc(100% - 4px)
     no-repeat;
   padding-right: 35px;
 }
-/*Form*/
 form {
   margin-bottom: 1rem;
 }
@@ -298,9 +254,6 @@ legend {
   font-weight: 600;
   font-size: 1rem;
 }
-
-/* Buttons */
-
 button,
 input[type="submit"],
 input[type="reset"],
@@ -314,15 +267,12 @@ input[type="button"] {
   background-color: var(--primary);
   color: var(--text-1);
 }
-
 button:hover,
 input[type="submit"]:hover,
 input[type="reset"]:hover,
 input[type="button"]:hover {
   background: var(--primary-hover);
 }
-
-/* Table */
 table {
   width: 100%;
   border: var(--border);
@@ -352,39 +302,31 @@ tfoot tr td {
   background: var(--input-background-1);
   border: none;
 }
-/* Lists*/
 ol,
 ul {
   padding-left: 2rem;
   margin: 1rem 0;
 }
-
 li {
   margin-top: 0.5rem;
 }
-
 dl {
   padding-left: 1rem;
   margin: 1rem 0;
 }
-
 dt {
   font-weight: bold;
   margin-bottom: 0.3rem;
   font-size: 1.05rem;
 }
-
 dd {
   margin-left: 1.5rem;
   margin-bottom: 0.5rem;
 }
-
-/* Media */
 video,
 img {
   border-radius: var(--border-radius);
 }
-/* Details */
 details {
   padding: 0.5rem;
   background-color: var(--input-background-1);
