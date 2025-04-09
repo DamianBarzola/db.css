@@ -1,120 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0" /> -->
-    <title>Native HTML Components</title>
-    <link rel="stylesheet" href="./db.css" />
-  </head>
-  <body>
-    <h1>Native HTML Components</h1>
-    <hr />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>db.css</title>
+    <link rel="stylesheet" href="db.css">
+</head>
+<body>
+    <header>
+        <h1> db.css</h1>
+        <p >A simple classless CSS theme.</p>
+        <nav>
+            <a href="/">Home</a>
+            |
+            <a href="/demo"> Demo</a>|
+            <a href="http://github.com/damianbarzola/db.css">Github</a>
+        </nav>
+    </header>
 
-    <!-- Links -->
-    <h2>Links</h2>
-    <a href="#">Example Link</a>
+    <main>
+        <section id="usage">
+            <h2>Uso</h2>
 
-    <!-- Buttons -->
-    <h2>Buttons</h2>
-    <button>Button</button>
-    <input type="button" value="Input Button" />
+            <h3>1. Copiar el enlace de la hoja de estilos</h3>
+            <p>Para usar <i>db.css</i>, copia el siguiente enlace de la hoja de estilos en tu documento HTML:</p>
+            <pre>&lt;link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/damianbarzola/db.css/db.css"&gt;</pre>
+            
+            <h3>2. Pegar en el <code>&lt;head&gt;</code></h3>
+            <p>El enlace de la hoja de estilos debe estar en el fondo del <code>&lt;head&gt;</code> de tu documento HTML.</p>
 
-    <!-- Images -->
-    <h2>Images</h2>
-    <img src="https://via.placeholder.com/150" alt="Example Image" />
+            <h3>3. Disfrútalo </h3>
+            <p>Para personalizar, puedes sobrescribir cualquier propiedad CSS en tu propia hoja de estilos o mediante estilos en línea cuando sea necesario.</p>
+        </section>
 
-    <!-- Form -->
-    <h2>Form</h2>
-    <form>
-      <!-- Text fields -->
-      <label for="text">Text field:</label><br>
-      <input type="text" id="text" name="text" /><br /><br />
-      <input type="text" disabled /><br /><br />
-      <input type="text" readonly /><br /><br />
-      <input type="color" value="#1c76c5" /><br /><br />
-      <input type="file" /><br /><br />
-      <input type="password" /><br /><br />
-      <input type="date" /><br /><br />
-      <input type="month" /><br /><br />
-      <input type="week" /><br /><br />
-      <input type="time" /><br /><br />
-      <input type="range" /><br /><br />
+        <section id="what-is">
+            <h2>¿Qué es Classless CSS?</h2>
+            <p>Classless CSS es un enfoque de diseño web que aplica estilos directamente a los elementos HTML semánticos sin necesidad de utilizar clases. El objetivo es proporcionar un aspecto agradable y consistente a los documentos HTML con el mínimo esfuerzo.</p>
+            <p>Este tema se enfoca en estilizar los elementos básicos de HTML para que los usuarios puedan concentrarse en la estructura y el contenido e ignorar la apariencia.</p>
+        </section>
 
-      <input type="checkbox" name="option1" value="1" />
-      <br />
+        <section id="characteristics">
+            <h2>Características principales de <i>db.css</i></h2>
+            <ul>
+                <li><strong>Rápida implementación:</strong> Solo copia y pega el enlace de la hoja de estilos</li>
+                <li><strong>HTML limpio:</strong> Sin contaminar tu marcado con múltiples clases</li>
+                <li><strong>Fácil de personalizar:</strong> Puedes sobrescribir estilos según tus necesidades</li>
+                <li><strong>Minimalista:</strong> Sin estilos innecesarios o complicados</li>
+                <li><strong>Ligero:</strong> Tamaño mínimo del archivo CSS ( ~ 2.7 KB)</li>
+                <li><strong>Responsivo:</strong> Se adapta a diferentes tamaños de pantalla</li>
+            </ul>
+        </section>
+        <section id="contributing">
+            <h2>Contribuir</h2>
+            <p>¿Querés sumar algo? Hacelo desde GitHub.</p>
+            <p>Podés abrir un issue o mandar un pull request con sugerencias o mejoras.</p>
+            <p>¡Toda ayuda es bienvenida!</p>
 
-      <input type="radio" name="radio" value="option1" />
-
-      <br />
-
-      <!-- Dropdown (select) -->
-      <label for="select">Select an option:</label>
-      <select id="select" name="select">
-        <option value="1">Option 1</option>
-        <option value="2">Option 2</option>
-        <option value="3">Option 3</option></select
-      ><br /><br />
-
-      <!-- Textarea -->
-      <label for="textarea">Text area:</label>
-      <textarea id="textarea" name="textarea"></textarea><br /><br />
-    </form>
-
-    <!-- Tables -->
-    <h2>Tables</h2>
-    <table >
-      <thead>
-        <tr>
-          <th>Column 1</th>
-          <th>Column 2</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>Data 1</td>
-          <td>Data 2</td>
-        </tr>
-        <tr>
-          <td>Data 3</td>
-          <td>Data 4</td>
-        </tr>
-      </tbody>
-    </table>
-
-    <!-- Lists -->
-    <h2>Lists</h2>
-    <h3>Ordered List</h3>
-    <ol>
-      <li>Item 1</li>
-      <li>Item 2</li>
-      <li>Item 3</li>
-    </ol>
-
-    <h3>Unordered List</h3>
-    <ul>
-      <li>Item A</li>
-      <li>Item B</li>
-      <li>Item C</li>
-    </ul>
-
-    <!-- Multimedia -->
-    <h2>Multimedia</h2>
-    <h3>Video</h3>
-    <video width="320" height="240" controls>
-      <source src="movie.mp4" type="video/mp4" />
-      Your browser does not support the video tag.
-    </video>
-
-    <!-- Other components -->
-    <h2>Other Components</h2>
-    <progress value="50" max="100"></progress><br />
-
-    <details>
-      <summary>Details</summary>
-      This is hidden content that is revealed when clicked.
-    </details>
-    <aside>
-      asdasdasdñ,
-    </aside>
-  </body>
+        </section>
+    </main>
+    <footer>
+        <p>© 2025 db.css - Código bajo licencia MIT.</p>
+    </footer>
+</body>
 </html>
