@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ejemplos de Elementos HTML con CSS</title>
+    <link rel="stylesheet" href="./db.css" />
+  </head>
+  <body>
+    <header>
+      <h1> db.css</h1>
+      <p >A simple classless CSS theme.</p>
+      <nav>
+          <a href="/">Home</a>
+          |
+          <a href="/demo.html"> Demo</a>
+          |
+          <a target="_blank" rel="noopener noreferrer" href="http://github.com/damianbarzola/db.css">Github</a>
+      </nav>
+  </header>
+   <section>
+    <h2>Estructura y contenedores</h2>
+
+    <div>Este es un div</div>
+    <section>Sección</section>
+    <article>Artículo</article>
+    <aside>Aside</aside>
+    <header>Encabezado</header>
+    <footer>Pie de página</footer>
+    <nav>Navegación</nav>
+    <main>Contenido principal</main>
+   </section>
+
+    <h2>Separador</h2>
+
+      <hr>
+
+    <h2>Texto y contenido</h2>
+
+      <h1>Encabezado h1</h1>
+      <h2>Encabezado h2</h2>
+      <h3>Encabezado H3</h3>
+      <h4>Encabezado H4</h4>
+      <h5>Encabezado H5</h5>
+      <h6>Encabezado H6</h6>
+      <p>Este es un párrafo con <mark>texto resaltado</mark>.</p>
+      <blockquote>Cita destacada.</blockquote>
+      <p><cite>Cita de autor</cite></p>
+      <p><strong>Negrita</strong>, <em>Énfasis</em>, <b>Bold</b>, <i>Itálica</i>, <small>Texto pequeño</small></p>
+      <p>Código: <code>console.log('Hola')</code></p>
+      <p>Preformateado: <pre>console.log('Hola')</pre></p>
+       <p>Teclado: <kbd>Ctrl + Enter</kbd></p>
+      <p>Sample: <samp> Keyboard not found</samp></p>
+      <p>Variable: <var>x</var></p>
+      <p>Subíndice: H<sub>2</sub>O, Superíndice: x<sup>2</sup></p>
+      <p>Texto eliminado <del>antes</del> y agregado <ins>después</ins></p>
+      <p>Abreviatura: <abbr title="Hypertext Markup Language">HTML</abbr></p>
+      <p>Fecha y hora: <time datetime="2023-03-01">1 de marzo de 2023</time></p>
+
+    <h2>Enlaces y navegación</h2>
+
+      <a href="#">Este es un enlace</a>
+
+    <h2>Listas</h2>
+
+    <ul>
+      <li>Elemento de lista no ordenada</li>
+      <li>Elemento de lista no ordenada</li>
+      <li>Elemento de lista no ordenada</li>
+    </ul>
+    <ol>
+      <li>Elemento de lista ordenada</li>
+      <li>Elemento de lista ordenada</li>
+      <li>Elemento de lista ordenada</li>
+    </ol>
+    <dl>
+      <dt>Término</dt>
+      <dd>Definición</dd>
+      <dt>Término</dt>
+      <dd>Definición</dd>
+    </dl>
+
+    <h2>Tablas</h2>
+
+      <table>
+          <caption>Ejemplo de tabla</caption>
+            <thead>
+                <tr>
+                    <th>Encabezado 1</th>
+                    <th>Encabezado 2</th>
+                    <th>Encabezado 3</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Dato 1</td>
+                    <td>Dato 2</td>
+                    <td>Dato 3</td>
+                </tr>
+                <tr>    
+                    <td>Dato 4</td>
+                    <td>Dato 5</td>
+                    <td>Dato 6</td>
+                </tr>
+                <tr>    
+                    <td>Dato 4</td>
+                    <td>Dato 5</td>
+                    <td>Dato 6</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="3">Pie de tabla</td>
+                </tr>
+            </tfoot>
+          
+      </table>
+
+    <h2>Formularios e inputs</h2>
+
+      <form>
+          <fieldset>
+              <legend>Formulario</legend>
+              <label>Texto: <input type="text"></label>
+              <input type="color">
+              <input type="file">
+              <input type="range">
+              <input type="checkbox"> Checkbox
+              <input type="radio" name="radio"> Opción 1
+              <input type="radio" name="radio"> Opción 2
+              <select><option>Opción 1</option><option>Opción 2</option></select>
+
+              <input type="text" id="text" name="text" />
+              <input type="text" disabled />
+              <input type="text" readonly />
+              <input type="color" value="#1c76c5" />
+              <input type="file" />
+              <input type="password" />
+              <input type="date" />
+              <input type="month" />
+              <input type="week" />
+              <input type="time" />
+              <input type="range" />
+
+              <textarea name="textarea" cols="30" rows="10" ></textarea>
+        
+              <button>Botón</button>
+          </fieldset>
+      </form>
+
+      <progress value="70" max="100"></progress>
+      <meter value="0.7">70%</meter>
+      <output>Salida del formulario</output>
+
+    <h2>Multimedia e imágenes</h2>
+
+      <img src="https://via.placeholder.com/100" alt="Imagen">
+      <video controls width="200"><source src="video.mp4" type="video/mp4"></video>
+      <audio controls><source src="audio.mp3" type="audio/mpeg"></audio>
+      <canvas width="200" height="100" style="border:1px solid #000"></canvas>
+      <svg width="100" height="100"><circle cx="50" cy="50" r="40" stroke="black" stroke-width="3" fill="red" /></svg>
+
+    <h2>Detalles y contenido adicional</h2>
+
+      <details>
+          <summary>Detalles ocultos</summary>
+          <p>Este es un contenido dentro de details.</p>
+      </details>
+      <figure>
+          <img src="https://via.placeholder.com/100" alt="Imagen">
+          <figcaption>Descripción de la imagen</figcaption>
+      </figure>
+  </body>
+</html>

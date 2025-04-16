@@ -68,9 +68,13 @@ header h1 {
 }
 
 footer {
-  padding: 1rem 1rem 2rem 1rem;
+  padding: 1rem 1rem 0rem 1rem;
   border-top: 1px solid var(--border);
   margin: 2rem 0;
+}
+footer span {
+  text-align: center;
+  display: block;
 }
 aside {
   padding: 0.7rem 0.5rem;
